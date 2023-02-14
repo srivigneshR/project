@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+     
+ }
+ 
+ .center{
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     color: rgb(28, 31, 31);    
+ }
+
+.forget{
+    padding: 60px 40px 50px 40px;
+    background: lightgreen;
+    border-radius: 7px;
+    padding: 40px,70px;
+    
+}
+
+#name{
+    width: 330px;
+    height: 40px;
+    border: rgb(240, 235, 235);
+    background: rgb(216, 238, 135);
+    border-bottom: 01px solid white;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: rgb(39, 118, 238);
+}
+ 
+
+h2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#button{
+    border-color: rgb(249, 252, 252);
+    background-color: rgb(20, 20, 20);
+    border-radius: 40px;
+    width: 90px;
+    padding: 40px,70px;
+    color: rgb(250, 247, 245);
+    margin-top: 20px;
+    margin-left: 120px;
+}
